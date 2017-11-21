@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TableViewController.h"
 
 @interface ViewController ()
 
@@ -18,6 +19,8 @@
     [super viewDidLoad];
     
     NSLog(@"hello");
+    
+    NSLog(@"table view");
     
     
 }

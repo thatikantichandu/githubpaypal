@@ -14,6 +14,7 @@
 		3F52B65D1FC3FCE400204042 /* paypal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F52B65B1FC3FCE400204042 /* paypal.xcdatamodeld */; };
 		3F52B65F1FC3FCE400204042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F52B65E1FC3FCE400204042 /* Assets.xcassets */; };
 		3F52B6621FC3FCE400204042 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F52B6601FC3FCE400204042 /* LaunchScreen.storyboard */; };
+		3F52B66B1FC403BE00204042 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F52B66A1FC403BE00204042 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		3F52B65E1FC3FCE400204042 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F52B6611FC3FCE400204042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F52B6631FC3FCE400204042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F52B6691FC403BE00204042 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		3F52B66A1FC403BE00204042 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,8 @@
 				3F52B6631FC3FCE400204042 /* Info.plist */,
 				3F52B65B1FC3FCE400204042 /* paypal.xcdatamodeld */,
 				3F52B64F1FC3FCE400204042 /* Supporting Files */,
+				3F52B6691FC403BE00204042 /* TableViewController.h */,
+				3F52B66A1FC403BE00204042 /* TableViewController.m */,
 			);
 			path = paypal;
 			sourceTree = "<group>";
@@ -157,6 +162,7 @@
 				3F52B6571FC3FCE400204042 /* ViewController.m in Sources */,
 				3F52B6541FC3FCE400204042 /* AppDelegate.m in Sources */,
 				3F52B65D1FC3FCE400204042 /* paypal.xcdatamodeld in Sources */,
+				3F52B66B1FC403BE00204042 /* TableViewController.m in Sources */,
 				3F52B6511FC3FCE400204042 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
